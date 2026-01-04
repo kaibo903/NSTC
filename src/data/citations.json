@@ -1,0 +1,60 @@
+{
+  "baseArea": {
+    "key": "baseArea",
+    "definition": "基地面積是指都市更新單元內所有土地的面積總和，以平方公尺為單位。",
+    "formula": "基地面積 = Σ(各筆土地面積)",
+    "source": "都市更新條例",
+    "chapter": "第3條"
+  },
+  "buildingCoverageRatio": {
+    "key": "buildingCoverageRatio",
+    "definition": "建蔽率是指建築物投影面積占基地面積的百分比，限制建築物在地面上的覆蓋範圍。",
+    "formula": "建蔽率 = (建築物投影面積 / 基地面積) × 100%",
+    "source": "建築技術規則",
+    "chapter": "第161條"
+  },
+  "floorAreaRatio": {
+    "key": "floorAreaRatio",
+    "definition": "容積率是指建築物總樓地板面積與基地面積的比值，限制建築物的總開發量。",
+    "formula": "容積率 = (總樓地板面積 / 基地面積) × 100%",
+    "source": "建築技術規則",
+    "chapter": "第161條"
+  },
+  "totalFloorArea": {
+    "key": "totalFloorArea",
+    "definition": "總樓地板面積包括法定容積、獎勵容積、機電空間、梯廳、陽台、屋突及地下層面積的總和。",
+    "formula": "總樓地板面積 = 法定容積面積 + 獎勵容積面積 + 機電空間面積 + 梯廳空間面積 + 陽台空間面積 + 屋突面積 + 地下層面積",
+    "source": "建築技術規則",
+    "chapter": "第162條"
+  },
+  "commonBurdenRatio": {
+    "key": "commonBurdenRatio",
+    "definition": "共同負擔比是指地主需負擔的更新成本占總成本的比例，通常以百分比表示。",
+    "formula": "共同負擔比 = (共同負擔金額 / 總成本) × 100%",
+    "source": "都市更新條例",
+    "chapter": "第50條"
+  },
+  "returnRatio": {
+    "key": "returnRatio",
+    "definition": "分回比例是指地主在權利變換後可分回的產權比例，通常以百分比表示。",
+    "formula": "分回比例 = (地主權益價值 / 更新後總價值) × 100%",
+    "source": "都市更新條例",
+    "chapter": "第50條"
+  },
+  "pingToPingRatio": {
+    "key": "pingToPingRatio",
+    "definition": "一坪換幾坪是指更新後地主可分回的室內坪數與更新前原室內坪數的比值。",
+    "formula": "一坪換幾坪 = 預估分回室內坪數 / 更新前原室內坪數",
+    "source": "權利變換估價報告",
+    "chapter": "第3章"
+  },
+  "landEfficiency": {
+    "key": "landEfficiency",
+    "definition": "土地坪效是指每坪土地可產生的銷售面積，反映土地開發效率。",
+    "formula": "土地坪效 = 總銷售面積 / 基地面積(坪)",
+    "source": "都市更新評估模型",
+    "chapter": "第2章"
+  }
+}
+
+
