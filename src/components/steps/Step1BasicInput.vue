@@ -265,7 +265,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, watch } from 'vue';
+import { ref, computed } from 'vue';
 import { QuestionFilled } from '@element-plus/icons-vue';
 import type { BasicInput } from '../../types';
 

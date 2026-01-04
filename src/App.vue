@@ -50,7 +50,7 @@
                 @recalculate="handleRecalculate"
               />
               <Step5Evaluation
-                v-if="currentStep === 4"
+                v-if="currentStep === 4 && calculationResult"
                 :evaluation-input="evaluationInput"
                 :result="calculationResult"
                 v-model="evaluation"

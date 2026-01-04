@@ -11,7 +11,6 @@ import type {
   CostInput,
   EvaluationInput,
 } from '../types';
-import { FIXED_PARAMETERS } from '../data/fixedParameters';
 
 describe('計算模組測試', () => {
   const mockBasicInput: BasicInput = {

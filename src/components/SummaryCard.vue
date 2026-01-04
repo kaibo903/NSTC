@@ -47,7 +47,6 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue';
 import type { CalculationResult } from '../types';
 
 const props = defineProps<{

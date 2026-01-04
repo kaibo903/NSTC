@@ -78,7 +78,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, watch } from 'vue';
+import { computed } from 'vue';
 import type { EvaluationInput, EvaluationResult, CalculationResult } from '../../types';
 import DecisionRecommendation from '../DecisionRecommendation.vue';
 

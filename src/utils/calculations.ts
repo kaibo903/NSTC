@@ -186,7 +186,7 @@ export function calculateCost(
  */
 export function calculateEvaluation(
   input: BasicInput,
-  buildingArea: BuildingAreaResult,
+  _buildingArea: BuildingAreaResult,
   salesArea: SalesAreaResult,
   cost: CostResult,
   evaluationInput: EvaluationInput,
